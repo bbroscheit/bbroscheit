@@ -9,6 +9,7 @@
 
 a:link, a:visited,  a:hover, a:active{
     text-decoration: none;
+    color: antiquewhite;
 }
 
 /* Configuracion de Barra de Navegacion Lateral */
