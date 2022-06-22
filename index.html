@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+   
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css">
     <title>B Broscheit - Get Ready!</title>
 </head>
 <body>
+    <!--Navegacion Lateral-->
     <nav>
         <ul>
-            <li><a href=""><i class="fa-solid fa-house"></i></a></li>
-            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
-            <li><a href=""><i class="fa-solid fa-chart-simple"></i></a></li>
-            <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#about"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="#services"><i class="fa-solid fa-chart-simple"></i></a></li>
+            <li><a href="#contact"><i class="fa-solid fa-envelope"></i></a></li>
         </ul>    
     </nav>
-    <header>
-        <div class="contenedor">
+    
+    <!--Fin Navegacion Lateral-->
+    <!--Inicio Header-->
+    <header id="home">
+        <div>
             <div class="logo">
                 <img src="./image/imgPrincipal.jpg" alt="">
             </div>
@@ -30,6 +34,36 @@
             </div>
         </div>
     </header>
+    <!--Fin Header-->
+    <!--Inicio About-->
+    <div class="container" id="about">
+        <h1>titulo 1</h1>
+        <h3>subtitulo</h3>
+        <div>
+            <div class="aboutDatos">
+                <div class="aboutImg">
+                    <img src="./image/imgAbout.jpg" alt="foto de perfil">
+                </div>
+                <div class="aboutPrincipal">
+                    <div class="datosGenerales">
+                        <div class="datosGeneralesInterno">
+                            <ul>
+                                <li>NAME : Bernardo Broscheit</li>
+                                <li>AGE : 35</li>
+                                <li>CITY : Buenos Aires - ARG</li>
+                            </ul>
+                        </div>
+                        <div class="datosGeneralesInterno">
+                            <ul>
+                                <li>PHONE : +54 11 6408-7163</li>
+                                <li>EMAIL : bernardo.broscheit@gmail.com</li>
+                                <li>FREELANCE : Available</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <script src="./js/scripts.js"></script>
     <script src="https://kit.fontawesome.com/33bd8fb101.js" crossorigin="anonymous"></script>
 </body>
