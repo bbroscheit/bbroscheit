@@ -1,213 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css" />
     <title>B Broscheit - Get Ready!</title>
-</head>
-<body>
-    <!--Navegacion Lateral-->
-    <nav id="navBar">
-        <ul>
-            <li><a href="#home"><i class="fa-solid fa-house"></i></a><a href="#home" class="navHidden">HOME</a></li>
-            <li><a href="#about"><i class="fa-solid fa-user"></i></a><a href="#home" class="navHidden">ABOUT</a></li>
-            <li><a href="#services"><i class="fa-solid fa-chart-simple"></i></a><a href="#home" class="navHidden">SERVICES</a></li>
-            <li><a href="#contact"><i class="fa-solid fa-envelope"></i></a><a href="#home" class="navHidden">CONTACT</a></li>
-        </ul>    
-    </nav>
-    
-    <!--Fin Navegacion Lateral-->
-    <!--Inicio Header-->
-    <header id="home">
-        <div>
-            <div class="logo">
-                <img src="./image/imgPrincipal.jpg" alt="">
-            </div>
-            <div class="homeText">
-                <h1>I'm Bernardo Broscheit</h1>
-                <h3>I'm a Freelancer</h3>
-                <h4>deberia cambiar el text de arriba a developer</h4>
-            </div>
+  </head>
+  <body>
+    <header>
+      <!--Navegacion Lateral-->
+      <input type="checkbox" id="check" />
+
+      <nav class="sidebar">
+        <center>
+          <div>
+            <label for="check">
+              <i class="fas fa-bars btnMenu" id="sidebar_btn"></i>
+            </label>
+          </div>
+          <img
+            src="./image/imgPrincipal.jpg"
+            class="profile_image"
+            alt="imagen"
+          />
+          <h4>"Eat Sleep Code Repeat"</h4>
+        </center>
+        <a href="#"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+        <a href="#"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+        <a href="#"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+        <a href="#"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+        <a href="#"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+      </nav>
+
+      <!--Fin Navegacion Lateral-->
+
+      <center>
+        <div class="box">
+          <div class="content">
+            <img src="./image/imgPrincipal.jpg" alt="imagen principal" />
+            <h2>I'm Bernardo <br /><span>Full Stack Developer</span></h2>
+            <a href="#">Hire Me</a>
+          </div>
         </div>
+      </center>
     </header>
-    <!--Fin Header-->
-    <!--Inicio About-->
-    <section class="container" id="about">
-        <div>
-        <h1 class="titulo">About Me</h1>
-        <h2 class="subtitulo">Know me better</h2>
-        <div class="aboutDatos">
-            <div class="aboutImg">
-                <img src="./image/imgAbout.jpg" alt="foto de perfil">
-            </div>
-            <div class="aboutPrincipal">
-                <h1 class="aboutTitle"> I'm Bernardo Broscheit</h1>
-                <span class="aboutSubtitle"> I'm a FullStack Developer living in Argentina</span>
-                <p class="aboutIntro">  I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions. Check out my Portfolio</p>
-                <div class="datosGenerales">
-                    <div class="datosGeneralesInterno">
-                        <ul>
-                            <li>
-                                <span>NAME</span>Bernardo Broscheit
-                            </li>
-                            <li>
-                                <span>AGE</span>35
-                            </li>
-                            <li>
-                                <span>FROM</span> Buenos Aires - ARG
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="datosGeneralesInterno">
-                        <ul>
-                            <li>
-                                <span>PHONE</span> +54 11 6408-7163
-                            </li>
-                            <li>
-                                <span>EMAIL</span> bernardo.broscheit@gmail.com
-                            </li>
-                            <li>
-                                <span>FREELANCE</span> Available
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="aboutProgressBar"><!--Progress Bar-->
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="aboutResume">
-        <h1 class="titulo">My Resume</h1>
-    </div>
-    <div class="timeline">
-        <ul>
-            <li>
-                <div class="contenido">
-                    <h3>titulo1</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima suscipit illum quis repellat asperiores quidem doloribus, dolorum ea molestiae itaque, ipsam delectus, qui excepturi ipsum deserunt deleniti hic nemo corrupti.</p>
-                </div>
-                <div class="time">
-                    <h4>fecha</h4>
-                </div>
-            </li>
-            <li>
-                <div class="contenido">
-                    <h3>titulo1</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima suscipit illum quis repellat asperiores quidem doloribus, dolorum ea molestiae itaque, ipsam delectus, qui excepturi ipsum deserunt deleniti hic nemo corrupti.</p>
-                </div>
-                <div class="time">
-                    <h4>fecha</h4>
-                </div>
-            </li>
-            <li>
-                <div class="contenido">
-                    <h3>titulo1</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima suscipit illum quis repellat asperiores quidem doloribus, dolorum ea molestiae itaque, ipsam delectus, qui excepturi ipsum deserunt deleniti hic nemo corrupti.</p>
-                </div>
-                <div class="time">
-                    <h4>fecha</h4>
-                </div>
-            </li>
-            <li>
-                <div class="contenido">
-                    <h3>titulo1</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima suscipit illum quis repellat asperiores quidem doloribus, dolorum ea molestiae itaque, ipsam delectus, qui excepturi ipsum deserunt deleniti hic nemo corrupti.</p>
-                </div>
-                <div class="time">
-                    <h4>fecha</h4>
-                </div>
-            </li>
-            <li>
-                <div class="contenido">
-                    <h3>titulo1</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima suscipit illum quis repellat asperiores quidem doloribus, dolorum ea molestiae itaque, ipsam delectus, qui excepturi ipsum deserunt deleniti hic nemo corrupti.</p>
-                </div>
-                <div class="time">
-                    <h4>fecha</h4>
-                </div>
-            </li>
-            <li>
-                <div class="contenido">
-                    <h3>titulo1</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima suscipit illum quis repellat asperiores quidem doloribus, dolorum ea molestiae itaque, ipsam delectus, qui excepturi ipsum deserunt deleniti hic nemo corrupti.</p>
-                </div>
-                <div class="time">
-                    <h4>fecha</h4>
-                </div>
-            </li>
-                <div style="clear:both;"></div>
-        </ul>
-        <div style="height: 50px;"></div>
-    </div>
-    </section>
-    <!--Fin About-->
-    <!-- Inicio Services-->
-    <section>
-        <div class="containerServices" id="services">
-            <h1 class="titulo">Services I Provide</h1>
-            <p class="subtitulo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, distinctio aperiam, laboriosam, magnam nisi facere explicabo cupiditate deserunt id ab esse quas veritatis sit quaerat doloremque excepturi tenetur repellat. Ex!</p>
-       
-        <div class="boxes">
-            <div class="box">
-                <div class="inner_box">
-                    <span><i class="fas fa-paint-brush"></i></span>
-                    <h1>Web Design</h1>
-                </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quod aperiam inventore quaerat cumque explicabo fuga ullam. Aperiam aspernatur consectetur voluptatum sint aliquam a sed, ea porro est fuga. Saepe.</p>
-            </div>
-        
-       
-            <div class="box">
-                <div class="inner_box">
-                    <span><i class="fas fa-camera"></i></span>
-                    <h1>Photography</h1>
-                </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quod aperiam inventore quaerat cumque explicabo fuga ullam. Aperiam aspernatur consectetur voluptatum sint aliquam a sed, ea porro est fuga. Saepe.</p>
-            </div>
-        
-        
-            <div class="box">
-                <div class="inner_box">
-                    <span><i class="fas fa-edit"></i></span>
-                    <h1>Web Development</h1>
-                </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quod aperiam inventore quaerat cumque explicabo fuga ullam. Aperiam aspernatur consectetur voluptatum sint aliquam a sed, ea porro est fuga. Saepe.</p>
-            </div>
+    <section class="aboutSection"></section>
 
-            <!--<div class="box">
-                <div class="inner_box">
-                    <span><i class="fas fa-edit"></i></span>
-                    <h1>Web Development</h1>
-                </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quod aperiam inventore quaerat cumque explicabo fuga ullam. Aperiam aspernatur consectetur voluptatum sint aliquam a sed, ea porro est fuga. Saepe.</p>
-            </div>
-
-            <div class="box">
-                <div class="inner_box">
-                    <span><i class="fas fa-edit"></i></span>
-                    <h1>Web Development</h1>
-                </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quod aperiam inventore quaerat cumque explicabo fuga ullam. Aperiam aspernatur consectetur voluptatum sint aliquam a sed, ea porro est fuga. Saepe.</p>
-            </div>
-
-            <div class="box">
-                <div class="inner_box">
-                    <span><i class="fas fa-edit"></i></span>
-                    <h1>Web Development</h1>
-                </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quod aperiam inventore quaerat cumque explicabo fuga ullam. Aperiam aspernatur consectetur voluptatum sint aliquam a sed, ea porro est fuga. Saepe.</p>
-            </div>-->
-        </div>
-        </div>
-    </section>
     <script src="./js/scripts.js"></script>
     <script src="./js/progressBar.js"></script>
-    <script src="https://kit.fontawesome.com/33bd8fb101.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/33bd8fb101.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
