@@ -1,4 +1,4 @@
- ```
+ ```javascript
  const aboutMe = {
    pronouns: "He",
    code: [JavaScript, HTML, CSS],
