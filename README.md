@@ -35,9 +35,9 @@
 <h2 align="center" width="100%">👨‍💻 How to contact me </h2>
 
 <p align="center" display="inline-block"> <a href="https://www.linkedin.com/in/bernardo-broscheit-94b567144/" target="_blank"> 
- <img src="https://res.cloudinary.com/de2od3piw/image/upload/c_scale,w_120/v1668551731/pics/LInkedIn_o2sf1q.png" alt="javascript" /> 
+ <img src="https://res.cloudinary.com/de2od3piw/image/upload/c_scale,w_78/v1668551731/pics/LInkedIn_o2sf1q.png" alt="javascript" /> 
 </p>
  <p align="center" display="inline-block"> <a href="https://www.linkedin.com/in/bernardo-broscheit-94b567144/" target="_blank"> 
- <img src="https://res.cloudinary.com/de2od3piw/image/upload/c_scale,w_90/v1668551058/pics/mail_aj5ggq.png" alt="javascript" /> 
+ <img src="https://res.cloudinary.com/de2od3piw/image/upload/c_scale,w_60/v1668551058/pics/mail_aj5ggq.png" alt="javascript" /> 
 </p>
 
