@@ -1,3 +1,6 @@
+ ![imagen de portada](https://res.cloudinary.com/de2od3piw/image/upload/v1668542259/pics/portada_nhh8uq.gif)
+ 
+ 
  ```javascript
  const aboutMe = {
    pronouns: "He",
