@@ -38,7 +38,7 @@
 <a  href="https://www.linkedin.com/in/bernardo-broscheit-94b567144/" target="_blank"> 
  <img src="https://res.cloudinary.com/de2od3piw/image/upload/c_scale,w_60/v1668560015/pics/LInkedIn_nhfyou.png" alt="javascript" /> 
       
-<a  href="https://www.linkedin.com/in/bernardo-broscheit-94b567144/" target="_blank"> 
+<a  href="mailto:bernardo.broscheit@gmail.com" target="_blank"> 
  <img src="https://res.cloudinary.com/de2od3piw/image/upload/c_scale,w_60/v1668560897/pics/mail_dlhnuj.png" alt="javascript" /> 
  </div>
 
